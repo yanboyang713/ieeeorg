@@ -1,9 +1,16 @@
-# ieeeorg
-The IEEETran in OrgMode, just type make.
-
-Be aware that this example is compatible with OrgMode 9.*. Earlier or
-later OrgMode versions require minor modifications to the Makefile
-and/or ieee.org files.
-
-For a detailed explanation on why and how to write reproducible
-articles using OrgMode, please visit the following [[https://github.com/alegrand/RR_webinars/blob/master/1_replicable_article_laboratory_notebook/index.org][page]].
+#+TITLE: Using IEEETran in Spacemacs org mode base on manjaro linux
+* Introduction
+This instruction is for how to using IEEETran Latex in org mode base on Spacemacs
+* Install
++ install emacs
+  yaourt -S emacs
++ install spacemacs
+  git clone https://github.com/syl20bnr/spacemacs.git ~/.emacs.d -b develop
+  git clone https://github.com/yanboyang713/spacemacsConfig.git ~/.spacemacs.d/
++ install TeX Live
+  yaourt -S texlive-most
+  yaourt -S texlive-lang
+* how to export PDF or Tex
+1. Open ieee.org, which is temple for IEEE template
+2. put you context into template
+3. press SPC - m - e - e to select which format you want to export

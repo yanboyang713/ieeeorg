@@ -42,7 +42,7 @@
 ** Latex configurations                                             :ignore:
 ** Frontpage                                                        :ignore:
 #+BEGIN_EXPORT latex
-\title{This is the Real Title}
+\title{This is the Real Title: show}
 
 \author{
 \IEEEauthorblockN{
