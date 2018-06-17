@@ -5,11 +5,11 @@ This instruction is for how to using IEEETran Latex in org mode base on Spacemac
 + install emacs
   yaourt -S emacs
 + install spacemacs
-  git clone https://github.com/syl20bnr/spacemacs.git ~/.emacs.d -b develop
-  git clone https://github.com/yanboyang713/spacemacsConfig.git ~/.spacemacs.d/
+  - git clone https://github.com/syl20bnr/spacemacs.git ~/.emacs.d -b develop
+  - git clone https://github.com/yanboyang713/spacemacsConfig.git ~/.spacemacs.d/
 + install TeX Live
-  yaourt -S texlive-most
-  yaourt -S texlive-lang
+  - yaourt -S texlive-most
+  - yaourt -S texlive-lang
 * how to export PDF or Tex
 1. Open ieee.org, which is temple for IEEE template
 2. put you context into template
